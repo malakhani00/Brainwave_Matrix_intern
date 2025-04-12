@@ -1,0 +1,2 @@
+{FIXED :AVG(IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Total CY Profit] END) }
+{FIXED [State/Province]: AVG([Total CY Profit])}
